@@ -8,7 +8,7 @@ export default function Contact() {
       <div className="row">
         <div className="col-lg-12 text-center">
           <h2 className="section-heading text-uppercase">Contato</h2>
-          <h3 className="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+          <h3 className="section-subheading text-muted">Nos envie uma mensagem e entraremos em contato o mais rápido possivel.</h3>
         </div>
       </div>
       <div className="row">
@@ -17,7 +17,7 @@ export default function Contact() {
             <div className="row">
               <div className="col-md-6">
                 <div className="form-group">
-                  <input className="form-control" id="name" type="text" placeholder="Nomee *" required="required" data-validation-required-message="Please enter your name."/>
+                  <input className="form-control" id="name" type="text" placeholder="Nome *" required="required" data-validation-required-message="Please enter your name."/>
                   <p className="help-block text-danger"></p>
                 </div>
                 <div className="form-group">

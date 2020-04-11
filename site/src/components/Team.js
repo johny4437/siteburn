@@ -11,7 +11,7 @@ export default function Team() {
       <div className="row">
         <div className="col-lg-12 text-center">
           <h2 className="section-heading text-uppercase">Nosso Time</h2>
-          <h3 className="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+         
         </div>
       </div>
       <div className="row">
@@ -67,7 +67,8 @@ export default function Team() {
       </div>
       <div className="row">
         <div className="col-lg-8 mx-auto text-center">
-          <p className="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p>
+          <p className="large text-muted">Colocando talento em design e desevnvolvimento para trabalhar juntos, nós contruímos soluções web e mobile que te ajudará alcançar os objetivos
+          do seu negócio e ainda agradar os seus clientes.</p>
         </div>
       </div>
     </div>
