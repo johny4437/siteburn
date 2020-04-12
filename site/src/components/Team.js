@@ -10,7 +10,7 @@ export default function Team() {
     <div className="container">
       <div className="row">
         <div className="col-lg-12 text-center">
-          <h2 className="section-heading text-uppercase">Nosso Time</h2>
+          <h2 className="section-heading text-uppercase">Nossa Equipe</h2>
          
         </div>
       </div>

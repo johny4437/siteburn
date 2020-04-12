@@ -1,6 +1,24 @@
-import React from 'react'
-
+import React,{useState} from 'react';
+import emailjs from   'emailjs-com';
 export default function Contact() {
+
+  const [name, setName] = useState('');
+  const [email, setEmail] = useState('');
+  const [message, sentMessage] = useState('');
+
+ async  function handleSubmit(e){
+    e.preventDefault();
+    const data = {
+      name,
+      email, 
+      message
+    };
+    try {
+      const response = await emailjs.send(data) 
+    } catch (error) {
+      alert('Error to send Email..');
+    }
+  }
     return (
         <div>
             <section className="page-section" id="contact">
@@ -13,15 +31,21 @@ export default function Contact() {
       </div>
       <div className="row">
         <div className="col-lg-12">
-          <form id="contactForm" name="sentMessage" novalidate="novalidate">
+          <form id="contactForm" onSubmit={handleSubmit} name="sentMessage" novalidate="novalidate" >
             <div className="row">
               <div className="col-md-6">
                 <div className="form-group">
-                  <input className="form-control" id="name" type="text" placeholder="Nome *" required="required" data-validation-required-message="Please enter your name."/>
+                  <input className="form-control" id="name" type="text" placeholder="Nome *" 
+                  value={name}
+                  onChange={e =>setName(e.target.value)}
+                   required="required" data-validation-required-message="Please enter your name."/>
                   <p className="help-block text-danger"></p>
                 </div>
                 <div className="form-group">
-                  <input className="form-control" id="email" type="email" placeholder="Email *" required="required" data-validation-required-message="Please enter your email address."/>
+                  <input className="form-control" id="email" 
+                  value={email}
+                  onChange={e=>setEmail(e.target.value)}
+                type="email" placeholder="Email *" required="required" data-validation-required-message="Please enter your email address."/>
                   <p className="help-block text-danger"></p>
                 </div>
                 <div className="form-group">
@@ -31,14 +55,17 @@ export default function Contact() {
               </div>
               <div className="col-md-6">
                 <div className="form-group">
-                  <textarea className="form-control" id="message" placeholder="Sua Mensagem *" required="required" data-validation-required-message="Please enter a message."></textarea>
+                  <textarea className="form-control" id="message"
+                  value={message}
+                  onChange={sentMessage}
+                  placeholder="Sua Mensagem *" required="required" data-validation-required-message="Please enter a message."></textarea>
                   <p className="help-block text-danger"></p>
                 </div>
               </div>
               <div className="clearfix"></div>
               <div className="col-lg-12 text-center">
                 <div id="success"></div>
-                <button id="sendMessageButton" className="btn btn-primary btn-xl text-uppercase" type="submit">Enviar Mensagem</button>
+                <a id="sendMessageButton" className="btn btn-primary btn-xl text-uppercase" type="submit" href="">Enviar Mensagem</a>
               </div>
             </div>
           </form>
