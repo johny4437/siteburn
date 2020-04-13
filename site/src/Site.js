@@ -12,12 +12,15 @@ import About from   './components/About';
 export default function Site() {
     return (
         <div>
+          
             <Navigation/>{/* Navigation*/ }
-            <Header/>{/* Header */}
-            <Services/>{/*Services */}
-            <Portfolio/>{/*Portfolio Grid*/}
-            <About/>{/*About */}
-            <Team/>{/*Team*/}
+             <Header/>
+             <Services/>
+             <Portfolio/>
+             <About/>
+             <Team/>
+             <Contact/>
+            
  {/*Clients*/}
   <section className="py-5">
     <div className="container">
@@ -46,8 +49,7 @@ export default function Site() {
     </div>
   </section>
 
-  {/*Contato*/}
-    <Contact/>
+  
   {/*Footer*/}
   <Footer/>
  </div>

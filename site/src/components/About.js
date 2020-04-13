@@ -3,13 +3,16 @@ import React from 'react'
 export default function About() {
     return (
         <div>
-            <div className="container">
+  <div className="container" id="about">
       <div className="row">
         <div className="col-lg-12 text-center">
           <h2 className="section-heading text-uppercase">Sobre Nós</h2>
+          <br/>
           <h3 className="section-subheading text-muted">Ajudamos marcas e negócios a resolver seus desafios com soluções Web e mobiles de forma gratificante e significativa.</h3>
         </div>
       </div>
+      <br/>
+      <br/>
       <div className="row">
         <div className="col-lg-12">
           <ul className="timeline">

@@ -3,7 +3,7 @@ import React from 'react'
 export default function Header() {
     return (
         <div>
-            <header className="masthead">
+  <header className="masthead" id="page-top">
     <div className="container">
       <div className="intro-text">
         <div className="intro-lead-in">Os desenvolvedores que você procura estão aqui</div>
