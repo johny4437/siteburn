@@ -7,13 +7,14 @@ import Footer from './components/Footer';
 import Contact from './components/Contact';
 import Portfolio from   './components/Portfolio';
 import About from   './components/About';
+import Menu from './components/Menu';
 
 
 export default function Site() {
     return (
         <div>
           
-            <Navigation/>{/* Navigation*/ }
+            <Menu/>
              <Header/>
              <Services/>
              <Portfolio/>

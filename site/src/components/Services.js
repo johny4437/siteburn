@@ -36,6 +36,9 @@ export default function Services() {
             <i className="fa fa-circle fa-stack-2x text-primary" color="#000000"></i>
             <i className="fa fa-desktop fa-stack-1x fa-inverse"></i>
           </span>
+          <br/>
+          <br/>
+
           <h4 className="service-heading">Sistemas</h4>
           <p className="text-muted">Desenvolvemos o seu sistema conforme a necessidade do seu negócio.</p>
         </div>

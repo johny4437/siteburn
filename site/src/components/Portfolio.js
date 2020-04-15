@@ -86,7 +86,6 @@ export default function Portfolio() {
           </a>
           <div className="portfolio-caption">
             <h4>GOLDLOCK ONE</h4>
-            <p className="text-muted">Website Design</p>
           </div>
         </div>
         <div className="col-md-4 col-sm-6 portfolio-item">

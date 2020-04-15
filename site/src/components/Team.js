@@ -33,7 +33,7 @@ export default function Team() {
               </li>
               <li className="list-inline-item">
                 <a href="#">
-                  <i className="fa fa-instagram"></i>
+                  <i className="fa fa-linkedin"></i>
                 </a>
               </li>
             </ul>
@@ -52,12 +52,12 @@ export default function Team() {
               </li>
               <li className="list-inline-item">
                 <a href="#">
-                  <i className="fa fa-facebook-f"></i>
+                  <i className="fa  fa-facebook-f"></i>
                 </a>
               </li>
               <li className="list-inline-item">
                 <a href="#">
-                  <i className="fa fa-instagram"></i>
+                  <i className="fa fa-linkedin"></i>
                 </a>
               </li>
             </ul>
