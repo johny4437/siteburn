@@ -32,12 +32,11 @@ export default function Services() {
           Ultilizamos linguagens de programação moderna como React-Native e IONIC.</p>
         </div>
         <div className="col-md-4">
-          <span className="fab-stack fa-4x">
+          <span className="fa-stack fa-4x">
             <i className="fa fa-circle fa-stack-2x text-primary" color="#000000"></i>
             <i className="fa fa-desktop fa-stack-1x fa-inverse"></i>
           </span>
-          <br/>
-          <br/>
+         
 
           <h4 className="service-heading">Sistemas</h4>
           <p className="text-muted">Desenvolvemos o seu sistema conforme a necessidade do seu negócio.</p>

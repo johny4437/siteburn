@@ -13,11 +13,6 @@ export default function Footer() {
         <div className="col-md-4">
           <ul className="list-inline social-buttons">
             <li className="list-inline-item">
-              <a href="#">
-                <i className="fa fa-twitter"></i>
-              </a>
-            </li>
-            <li className="list-inline-item">
               <a href="https://www.facebook.com/Burn-Brain-100166934985796">
                 <i className="fa fa-facebook-f"></i>
               </a>
@@ -32,10 +27,10 @@ export default function Footer() {
         <div className="col-md-4">
           <ul className="list-inline quicklinks">
             <li className="list-inline-item">
-              <a href="#">Politica de Privacidade</a>
+              Politica de Privacidade
             </li>
             <li className="list-inline-item">
-              <a href="#">Termos de Uso</a>
+              Termos de Uso
             </li>
           </ul>
         </div>

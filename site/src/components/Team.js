@@ -22,17 +22,17 @@ export default function Team() {
             <p className="text-muted">CEO</p>
             <ul className="list-inline social-buttons">
               <li className="list-inline-item">
-                <a href="#">
-                  <i className="fa fa-twitter"></i>
+                <a href="https://instagram.com/eric.pereira1" target="blank">
+                  <i className="fa fa-instagram"></i>
                 </a>
               </li>
               <li className="list-inline-item">
-                <a href="#">
+                <a href="https://www.facebook.com/Burn-Brain-100166934985796/" target="blank">
                   <i className="fa fa-facebook-f"></i>
                 </a>
               </li>
               <li className="list-inline-item">
-                <a href="#">
+                <a href="https://www.linkedin.com/in/eric-pereira-dev/" target="blank">
                   <i className="fa fa-linkedin"></i>
                 </a>
               </li>
@@ -46,17 +46,17 @@ export default function Team() {
             <p className="text-muted">CTO</p>
             <ul className="list-inline social-buttons">
               <li className="list-inline-item">
-                <a href="#">
+                <a href="https://instagram.com/johnyanastacio" target="blank">
                   <i className="fa fa-twitter"></i>
                 </a>
               </li>
               <li className="list-inline-item">
-                <a href="#">
+                <a href="https://www.facebook.com/Burn-Brain-100166934985796/" target="blank">
                   <i className="fa  fa-facebook-f"></i>
                 </a>
               </li>
               <li className="list-inline-item">
-                <a href="#">
+                <a href="https://www.linkedin.com/in/johny-dos-santos-anastacio-606121125/" target="blank">
                   <i className="fa fa-linkedin"></i>
                 </a>
               </li>

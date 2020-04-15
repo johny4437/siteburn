@@ -20,7 +20,7 @@ export default function Portfolio() {
       </div>
       <div className="row">
         <div className="col-md-4 col-sm-6 portfolio-item">
-          <a className="portfolio-link" data-toggle="modal" href="http://www.vassouraslinsbrasil.com.br/">
+          <a className="portfolio-link" data-toggle="modal" href="http://www.vassouraslinsbrasil.com.br/" target="blank">
             <div className="portfolio-hover">
               <div className="portfolio-hover-content">
                 <i className="fa fa-plus fa-3x"></i>
@@ -34,7 +34,7 @@ export default function Portfolio() {
           </div>
         </div>
         <div className="col-md-4 col-sm-6 portfolio-item">
-          <a className="portfolio-link" data-toggle="modal" href="http://www.defesaagricola.com.br/">
+          <a className="portfolio-link" data-toggle="modal" href="http://www.defesaagricola.com.br/" target="blank">
             <div className="portfolio-hover">
               <div className="portfolio-hover-content">
                 <i className="fa fa-plus fa-3x"></i>
@@ -48,7 +48,7 @@ export default function Portfolio() {
           </div>
         </div>
         <div className="col-md-4 col-sm-6 portfolio-item">
-          <a className="portfolio-link" data-toggle="modal" href="http://www.docefruit.com/">
+          <a className="portfolio-link" data-toggle="modal" href="http://www.docefruit.com/" target="blank">
             <div className="portfolio-hover">
               <div className="portfolio-hover-content">
                 <i className="fa fa-plus fa-3x"></i>
@@ -62,7 +62,7 @@ export default function Portfolio() {
           </div>
         </div>
         <div className="col-md-4 col-sm-6 portfolio-item">
-          <a className="portfolio-link" data-toggle="modal" href="http://www.wsnaturais.com.br/">
+          <a className="portfolio-link" data-toggle="modal" href="http://www.wsnaturais.com.br/" target="blank">
             <div className="portfolio-hover">
               <div className="portfolio-hover-content">
                 <i className="fa fa-plus fa-3x"></i>
@@ -76,7 +76,7 @@ export default function Portfolio() {
           </div>
         </div>
         <div className="col-md-4 col-sm-6 portfolio-item">
-          <a className="portfolio-link" data-toggle="modal" href="https://www.goldilockone.com/">
+          <a className="portfolio-link" data-toggle="modal" href="https://www.goldilockone.com/" target="blank">
             <div className="portfolio-hover">
               <div className="portfolio-hover-content">
                 <i className="fa fa-plus fa-3x"></i>
@@ -89,7 +89,7 @@ export default function Portfolio() {
           </div>
         </div>
         <div className="col-md-4 col-sm-6 portfolio-item">
-          <a className="portfolio-link" data-toggle="modal" href="http://www.institutoelo.com.br/">
+          <a className="portfolio-link" data-toggle="modal" href="http://www.institutoelo.com.br/" target="blank">
             <div className="portfolio-hover">
               <div className="portfolio-hover-content">
                 <i className="fa fa-plus fa-3x"></i>
