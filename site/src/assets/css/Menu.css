@@ -40,7 +40,10 @@
   
   .header li a:hover,
   .header .menu-btn:hover {
+    margin-top: 5px;
+    margin-bottom: 5px;
     background-color: #2c3e50;
+    border-radius: 5px;
   }
   
   
@@ -52,8 +55,8 @@
     text-decoration: none;
   }
   .header img{
-    width: 120px;
-    height: 50px;
+    width: 100px;
+    height: 30px;
   }
   
   /* menu */
